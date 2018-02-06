@@ -1,0 +1,33 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'demo_ota' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for demo_ota
+  pod 'AppCenterReactNativeShared', '~> 1.2.0'
+
+  
+
+  pod 'CodePush', :path => '../node_modules/react-native-code-push'
+
+  target 'demo_otaTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'demo_ota-tvOS' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for demo_ota-tvOS
+
+  target 'demo_ota-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

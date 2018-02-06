@@ -1,3 +1,4 @@
 <resources>
+    <string moduleConfig="true" name="reactNativeCodePush_androidDeploymentKey">gid7NIlO_iIVjB8NuTwcOL-b8Oyc0b49b24a-ffe5-41aa-b847-089e4a3f9747</string>
     <string name="app_name">demo_ota</string>
 </resources>
